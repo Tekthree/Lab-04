@@ -1,0 +1,22 @@
+*{
+  box-sizing: border-box;
+
+}
+
+body{
+  background-color:#18232e;
+  color: rgb(224, 223, 236);
+  font-size: 1.5vw;
+  max-width: 960px;
+  padding: 3.5em 0 3.5em 0;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    max-width: 480px;
+    margin: auto;
+    font-size: 10vw;
+  }
+}
